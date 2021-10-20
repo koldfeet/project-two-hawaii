@@ -5,7 +5,7 @@ body {
 }
 /*Header*/
 header {
-  background-color: #0061a8;
+  background-color: rgba(0, 97, 168, 0.4);
   height: 200px;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  margin-top: 5em;
 }
 
 .col {
@@ -43,6 +43,10 @@ a:hover {
 
 .col h1 {
   text-align: center;
+}
+
+.col p {
+  text-align: left;
 }
 
 .col,
@@ -68,6 +72,14 @@ a:hover {
   background-color: rgba(138, 182, 214, 0.6);
 }
 /*body cards*/
+
+/*Footer*/
+footer {
+  background-color: rgba(0, 97, 168, 0.6);
+  margin-top: 10em;
+  height: 5em auto;
+}
+/*Footer*/
 
 /*hamburger menu START*/
 .nav {
@@ -100,13 +112,6 @@ label {
 /*hamburger menu END*/
 
 @media screen and (min-width: 320px) and (max-width: 740px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 168vh;
-  }
-
   /*hamburger menu START*/
   label {
     display: block;
@@ -148,24 +153,32 @@ label {
   /*hamburger menu END*/
 
   body {
-    background-image: none;
-    background-color: lightgray;
+    background-image: url(images/beach.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
-@media screen and (min-width: 741px) and (max-width: 1039px) {
+@media screen and (min-width: 741px) and (max-width: 767px) {
   body {
-    background-image: none;
-    background-color: lightgray;
+    background-image: url(images/beach.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 110vh;
+  a {
+    font-size: 1em;
   }
 }
 
-@media screen and (min-width: 1040px) and (max-width: 1800px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  body {
+    background-image: url(images/beach.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  a {
+    font-size: 1em;
+  }
 }
