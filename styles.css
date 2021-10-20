@@ -2,6 +2,7 @@ body {
   background: url(images/beach.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /*Header*/
 header {
@@ -12,7 +13,7 @@ header {
   align-items: center;
 }
 
-a {
+.menu a {
   padding: 0.5em;
   margin: 0.5em;
   text-decoration: none;
@@ -77,7 +78,24 @@ a:hover {
 footer {
   background-color: rgba(0, 97, 168, 0.6);
   margin-top: 10em;
+  margin-bottom: 1em;
   height: 5em auto;
+}
+
+.col-sm {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-a a {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2em;
+  color: white;
+}
+
+.footer-p-address {
+  margin: 1em;
 }
 /*Footer*/
 
@@ -171,7 +189,7 @@ label {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 1300px) {
   body {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
