@@ -1,0 +1,35 @@
+body {
+  background: url(images/beach.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+/*Header*/
+header {
+  background-color: rgba(0, 97, 168, 0.4);
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  padding: 0.5em;
+  margin: 0.5em;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  font-family: "Seaweed Script", cursive;
+}
+
+.menu a:hover {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*Header*/
