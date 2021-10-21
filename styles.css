@@ -7,7 +7,7 @@ body {
 }
 /*Header*/
 header {
-  background-color: rgba(0, 97, 168, 0.4);
+  background-color: rgba(0, 97, 168, 0.6);
   height: 240px;
   display: flex;
   justify-content: center;
@@ -75,6 +75,10 @@ h1 {
   text-align: center;
 }
 
+.cards-p {
+  text-indent: 1.5em;
+}
+
 .card-img {
   width: 200px;
   height: 200px;
@@ -82,19 +86,19 @@ h1 {
 }
 
 .card-one {
-  background-color: rgba(138, 182, 214, 0.6);
+  background-color: rgba(0, 97, 168, 0.6);
   color: white;
   height: 620px;
 }
 
 .card-two {
-  background-color: rgba(138, 182, 214, 0.6);
+  background-color: rgba(0, 97, 168, 0.6);
   color: white;
   height: 620px;
 }
 
 .card-three {
-  background-color: rgba(138, 182, 214, 0.6);
+  background-color: rgba(0, 97, 168, 0.6);
   color: white;
   height: 620px;
 }

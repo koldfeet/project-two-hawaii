@@ -8,7 +8,7 @@ body {
 }
 /*Header*/
 header {
-  background-color: rgba(0, 97, 168, 0.4);
+  background-color: rgba(0, 97, 168, 0.5);
   height: 240px;
   display: flex;
   justify-content: center;
@@ -45,9 +45,10 @@ body {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: rgba(0, 97, 168, 0.6);
+  background-color: rgba(0, 97, 168, 0.5);
   position: fixed;
-  height: 31%;
+  height: 34%;
+  z-index: 1;
   overflow: auto;
 }
 
@@ -71,8 +72,12 @@ div.content {
 
 /*body content*/
 .content {
-  background-color: rgba(0, 97, 168, 0.2);
   width: 75%;
+}
+
+.card-para {
+  padding-top: 1em;
+  text-indent: 2em;
 }
 
 h2 {
@@ -82,7 +87,7 @@ h2 {
   margin-top: 1em;
 }
 
-img {
+.card-img-size {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -98,14 +103,20 @@ a:hover {
   color: blue;
 }
 
-p {
+.laniakea,
+.pillbox,
+.hanauma,
+.waikiki,
+.waimanalo {
   margin: 1em;
+  padding: 1em;
+  background-color: rgba(0, 97, 168, 0.5);
 }
 /*body content*/
 
 /*Footer*/
 footer {
-  background-color: rgba(0, 97, 168, 0.6);
+  background-color: rgba(0, 97, 168, 0.5);
   margin-top: 10em;
   margin-bottom: 1em;
   height: 5em auto;
@@ -173,7 +184,7 @@ h3 {
 .menu a {
   text-decoration: none;
   color: white;
-  line-height: 50px;
+  line-height: 35px;
   margin-left: 10px;
 }
 
@@ -229,6 +240,7 @@ label {
   }
   /*hamburger menu END*/
 
+  /*footer*/
   footer {
     background-color: rgba(0, 97, 168, 0.6);
     margin-top: 10em;
@@ -236,12 +248,27 @@ label {
     height: 5em auto;
     color: white;
   }
+  /*footer*/
 
+  /*body content*/
   body {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
+  .card-img-size {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 250px;
+  }
+
+  .content {
+    width: 100%;
+  }
+  /*body content*/
 }
 
 @media screen and (min-width: 741px) and (max-width: 767px) {
