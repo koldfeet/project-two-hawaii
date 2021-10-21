@@ -42,6 +42,16 @@ a:hover {
   margin-top: 2em;
 }
 
+h1,
+a {
+  color: white;
+}
+
+h1,
+a:hover {
+  color: blue;
+}
+
 h1 {
   font-family: "Seaweed Script", cursive;
 }
@@ -121,7 +131,7 @@ h3 {
 }
 
 .footer-a a:hover {
-  color: darkblue;
+  color: blue;
 }
 
 .footer-a-tag {
@@ -132,7 +142,7 @@ h3 {
 }
 
 .footer-a-tag:hover {
-  color: darkblue;
+  color: blue;
   text-decoration: underline;
 }
 

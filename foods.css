@@ -65,7 +65,7 @@ h3 {
 }
 
 .footer-a a:hover {
-  color: darkblue;
+  color: blue;
 }
 
 .footer-a-tag {
@@ -76,7 +76,7 @@ h3 {
 }
 
 .footer-a-tag:hover {
-  color: darkblue;
+  color: blue;
   text-decoration: underline;
 }
 

@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
+  color: white;
 }
 /*Header*/
 header {
@@ -33,6 +34,62 @@ a:hover {
 }
 
 /*Header*/
+
+/*sidebar nav*/
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgba(0, 97, 168, 0.6);
+  position: fixed;
+  height: 36.25%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: rgba(0, 97, 168, 1);
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: blue;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+/*sidebar nav*/
+
+/*body content*/
+.content {
+  background-color: rgba(0, 97, 168, 0.2);
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*body content*/
 
 /*Footer*/
 footer {
@@ -65,7 +122,7 @@ h3 {
 }
 
 .footer-a a:hover {
-  color: darkblue;
+  color: blue;
 }
 
 .footer-a-tag {
@@ -76,7 +133,7 @@ h3 {
 }
 
 .footer-a-tag:hover {
-  color: darkblue;
+  color: blue;
   text-decoration: underline;
 }
 
@@ -160,6 +217,14 @@ label {
   }
   /*hamburger menu END*/
 
+  footer {
+    background-color: rgba(0, 97, 168, 0.6);
+    margin-top: 10em;
+    margin-bottom: 1em;
+    height: 5em auto;
+    color: white;
+  }
+
   body {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
@@ -168,6 +233,14 @@ label {
 }
 
 @media screen and (min-width: 741px) and (max-width: 767px) {
+  footer {
+    background-color: rgba(0, 97, 168, 0.6);
+    margin-top: 10em;
+    margin-bottom: 1em;
+    height: 5em auto;
+    color: white;
+  }
+
   body {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
@@ -185,6 +258,14 @@ label {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1000px) {
+  footer {
+    background-color: rgba(0, 97, 168, 0.6);
+    margin-top: 5em;
+    margin-bottom: 1em;
+    height: 5em auto;
+    color: white;
+  }
+
   body {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
@@ -200,3 +281,26 @@ label {
     color: white;
   }
 }
+
+/*sidebar nav*/
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+/*sidebar nav*/
