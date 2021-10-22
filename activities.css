@@ -283,8 +283,8 @@ label {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
   }
 
   .content {
@@ -306,6 +306,14 @@ label {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  .card-img-size {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 270px;
   }
 
   .menu a {
@@ -331,6 +339,14 @@ label {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  .card-img-size {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 250px;
   }
 
   .menu a {
