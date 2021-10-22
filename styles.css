@@ -25,7 +25,8 @@ header {
 }
 
 .menu a:hover {
-  color: blue;
+  background-color: rgb(6, 50, 82);
+  color: white;
 }
 
 a:hover {

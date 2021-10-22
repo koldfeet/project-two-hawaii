@@ -243,6 +243,7 @@ label {
 
   .menu a:hover {
     background-color: rgb(6, 50, 82);
+    color: white;
   }
 
   #toggle:checked + .menu {
