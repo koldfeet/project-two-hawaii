@@ -75,6 +75,28 @@ div.content {
   width: 75%;
 }
 
+.button {
+  background-color: rgba(0, 0, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+
 .card-para {
   padding-top: 1em;
   text-indent: 2em;
