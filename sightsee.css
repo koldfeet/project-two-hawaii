@@ -34,6 +34,70 @@ a:hover {
 
 /*Header*/
 
+/*Body content*/
+.list-img-sizing {
+  width: 390px;
+  height: 300px;
+}
+
+.title-link,
+a {
+  color: white;
+}
+
+.title-link,
+a:hover {
+  color: blue;
+}
+
+.list-group-item {
+  background-color: rgba(0, 97, 168, 0.6);
+  color: white;
+  margin: 0.5em;
+}
+
+.container {
+  margin: 1em;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Button S*/
+.button {
+  background-color: rgba(0, 0, 255, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+/*Button E*/
+
+/*Body content*/
+
 /*Footer*/
 footer {
   background-color: rgba(0, 97, 168, 0.6);
@@ -164,6 +228,11 @@ label {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  .list-img-sizing {
+    width: 150px;
+    height: 150px;
   }
 }
 

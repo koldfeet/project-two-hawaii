@@ -47,7 +47,7 @@ body {
   width: 200px;
   background-color: rgba(0, 97, 168, 0.5);
   position: fixed;
-  height: 38%;
+  height: 41%;
   z-index: 1;
   overflow: auto;
 }
