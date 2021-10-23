@@ -6,6 +6,7 @@ body {
   margin: 0;
   color: white;
 }
+
 /*Header*/
 header {
   background-color: rgba(0, 97, 168, 0.6);
@@ -128,6 +129,7 @@ h1 {
   color: white;
   height: 650px;
 }
+
 /*body cards*/
 
 /*Footer*/
@@ -183,6 +185,7 @@ h3 {
 .footer-news {
   margin: 1em;
 }
+
 /*Footer*/
 
 /*hamburger menu START*/
@@ -213,6 +216,7 @@ label {
 #toggle {
   display: none;
 }
+
 /*hamburger menu END*/
 
 @media screen and (min-width: 320px) and (max-width: 740px) {
@@ -254,6 +258,7 @@ label {
     align-items: flex-start;
     padding: 5px;
   }
+
   /*hamburger menu END*/
 
   body {

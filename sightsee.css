@@ -6,6 +6,7 @@ body {
   margin: 0;
   color: white;
 }
+
 /*Header*/
 header {
   background-color: rgba(0, 97, 168, 0.4);
@@ -97,6 +98,7 @@ a:hover {
   display: flex;
   justify-content: center;
 }
+
 /*Button E*/
 
 /*Body content*/
@@ -154,6 +156,7 @@ h3 {
 .footer-news {
   margin: 1em;
 }
+
 /*Footer*/
 
 /*hamburger menu START*/
@@ -184,6 +187,7 @@ label {
 #toggle {
   display: none;
 }
+
 /*hamburger menu END*/
 
 @media screen and (min-width: 320px) and (max-width: 740px) {
@@ -226,6 +230,7 @@ label {
     align-items: flex-start;
     padding: 5px;
   }
+
   /*hamburger menu END*/
 
   body {
