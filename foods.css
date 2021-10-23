@@ -7,7 +7,7 @@ body {
   color: white;
 }
 
-/*Header*/
+/*Header start*/
 header {
   background-color: rgba(0, 97, 168, 0.5);
   height: 240px;
@@ -36,9 +36,9 @@ a:hover {
   text-decoration: none;
 }
 
-/*Header*/
+/*Header End*/
 
-/*sidebar nav*/
+/*sidebar nav Start*/
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
@@ -73,13 +73,14 @@ div.content {
   padding: 1px 16px;
 }
 
-/*sidebar nav*/
+/*sidebar nav End*/
 
-/*body content*/
+/*body content Start*/
 .content {
   width: 75%;
 }
 
+/*Button Style Start*/
 .button {
   background-color: rgba(0, 0, 255, 0.5);
   border: none;
@@ -102,6 +103,9 @@ div.content {
   justify-content: center;
 }
 
+/*Button Style End*/
+
+/*Section cards style Start*/
 .card-para {
   padding-top: 1em;
   text-indent: 2em;
@@ -141,7 +145,8 @@ a:hover {
   background-color: rgba(0, 97, 168, 0.5);
 }
 
-/*body content*/
+/*Section cards style End*/
+/*body content End*/
 
 /*Footer*/
 footer {
@@ -230,7 +235,9 @@ label {
 
 /*hamburger menu END*/
 
+/*Media Query start*/
 @media screen and (min-width: 320px) and (max-width: 740px) {
+
   /*hamburger menu START*/
   label {
     display: block;
@@ -255,7 +262,7 @@ label {
     color: white;
   }
 
-  #toggle:checked + .menu {
+  #toggle:checked+.menu {
     display: block;
     background-color: rgba(0, 97, 168, 0.8);
     position: absolute;
@@ -329,6 +336,7 @@ label {
     height: 270px;
   }
 
+  /*Header nav start*/
   .menu a {
     padding: 0.5em;
     margin: 0.5em;
@@ -337,6 +345,8 @@ label {
     font-weight: bold;
     color: white;
   }
+
+  /*Header nav End*/
 }
 
 @media screen and (min-width: 769px) and (max-width: 1000px) {
@@ -362,6 +372,7 @@ label {
     height: 250px;
   }
 
+  /*header nav start*/
   .menu a {
     padding: 0.5em;
     margin: 0.5em;
@@ -370,9 +381,11 @@ label {
     font-weight: bold;
     color: white;
   }
+
+  /*header nav End*/
 }
 
-/*sidebar nav*/
+/*sidebar nav Start*/
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
@@ -396,4 +409,5 @@ label {
   }
 }
 
-/*sidebar nav*/
+/*sidebar nav End*/
+/*Media Query start*/
