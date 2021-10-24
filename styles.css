@@ -112,6 +112,7 @@ h1 {
   width: 200px;
   height: 200px;
   margin: 2em;
+  border-radius: 0px;
 }
 
 .card-one {
