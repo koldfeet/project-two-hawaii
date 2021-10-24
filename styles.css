@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-  color: white;
 }
 
 /*Header Start*/
@@ -236,9 +235,7 @@ label {
 .blink-red {
   font-size: 1.5em;
   margin: .3em;
-  text-align: center;
   animation: emergency-blinking 3s infinite;
-  animation-direction: alternate;
 }
 
 @keyframes emergency-blinking {

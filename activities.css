@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-  color: white;
 }
 
 /*Header start*/
@@ -38,11 +37,6 @@ a:hover {
 /*Header End*/
 
 /*sidebar nav Start*/
-body {
-  margin: 0;
-  font-family: "Lato", sans-serif;
-}
-
 .sidebar {
   margin: 0;
   padding: 0;
@@ -77,6 +71,10 @@ div.content {
 /*body content Start*/
 .content {
   width: 75%;
+}
+
+p {
+  color: white;
 }
 
 /*Button Style Start*/
@@ -189,7 +187,7 @@ h3 {
 
 .footer-a-tag:hover {
   color: blue;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer-p-address {
@@ -281,7 +279,7 @@ label {
     display: block;
     margin: 0;
     padding: 5px;
-    font-size: 15px;
+    font-size: 1.5em;
   }
 
   .menu a:hover {
