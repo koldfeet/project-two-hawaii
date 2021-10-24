@@ -199,6 +199,22 @@ label {
   z-index: 1;
 }
 
+.blink-red {
+  font-size: 1.5em;
+  margin: .3em;
+  text-align: center;
+  animation: emergency-blinking 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes emergency-blinking {
+  0%   {color: red;}
+  25%  {color: white;}
+  50%  {color: red;}
+  75%  {color: white;}
+  100% {color: red;}
+}
+
 /*transition / animation End*/
 
 /*Media Query start*/
@@ -270,7 +286,7 @@ label {
     padding: 0.5em;
     margin: 0.5em;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
   }

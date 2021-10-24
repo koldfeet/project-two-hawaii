@@ -89,7 +89,6 @@ h1 {
 
 .col {
   margin: 0.5em;
-  background-color: lightgreen;
   height: 30em;
 }
 
@@ -180,7 +179,7 @@ h3 {
 
 .footer-a-tag:hover {
   color: blue;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer-p-address {
@@ -224,6 +223,33 @@ label {
 
 /*hamburger menu END*/
 
+/*transition / animation Start*/
+.card-img:hover {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transition-delay: .3s;
+  -moz-transform: .3s;
+  transition-duration: 2s;
+  -moz-transition-duration: 2s;
+}
+
+.blink-red {
+  font-size: 1.5em;
+  margin: .3em;
+  text-align: center;
+  animation: emergency-blinking 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes emergency-blinking {
+  0%   {color: red;}
+  25%  {color: white;}
+  50%  {color: red;}
+  75%  {color: white;}
+  100% {color: red;}
+}
+/*transition / animation End*/
+
 /*Media Query start*/
 @media screen and (min-width: 320px) and (max-width: 740px) {
 
@@ -243,7 +269,7 @@ label {
     display: block;
     margin: 0;
     padding: 5px;
-    font-size: 15px;
+    font-size: 1.5em;
   }
 
   .menu a:hover {
@@ -287,7 +313,7 @@ label {
     padding: 0.5em;
     margin: 0.5em;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
   }
@@ -295,7 +321,7 @@ label {
   /*Header nav End*/
 }
 
-@media screen and (min-width: 769px) and (max-width: 1000px) {
+@media screen and (min-width: 769px) and (max-width: 1300px) {
   body {
     background-image: url(images/beach.jpg);
     background-repeat: no-repeat;
@@ -311,7 +337,11 @@ label {
     font-weight: bold;
     color: white;
   }
-}
+  /*Header nav End*/
 
-/*Header nav End*/
+  .col {
+    margin: 0.5em;
+    height: 45em;
+  }
+}
 /*Media Query End*/

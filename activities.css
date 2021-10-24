@@ -243,6 +243,22 @@ label {
   -moz-transition-duration: 2s;
 }
 
+.blink-red {
+  font-size: 1.5em;
+  margin: .3em;
+  text-align: center;
+  animation: emergency-blinking 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes emergency-blinking {
+  0%   {color: red;}
+  25%  {color: white;}
+  50%  {color: red;}
+  75%  {color: white;}
+  100% {color: red;}
+}
+
 /*transition / animation End*/
 
 
