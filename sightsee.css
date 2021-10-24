@@ -188,6 +188,19 @@ label {
 
 /*hamburger menu END*/
 
+/*transition / animation Start*/
+.list-img-sizing:hover {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transition-delay: .3s;
+  -moz-transform: .3s;
+  transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  z-index: 1;
+}
+
+/*transition / animation End*/
+
 /*Media Query start*/
 @media screen and (min-width: 320px) and (max-width: 740px) {
 
@@ -277,7 +290,7 @@ label {
     padding: 0.5em;
     margin: 0.5em;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
   }

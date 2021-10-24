@@ -233,6 +233,18 @@ label {
 
 /*hamburger menu END*/
 
+/*transition / animation Start*/
+.card-img-size:hover {
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transition-delay: .3s;
+  -moz-transform: .3s;
+  transition-duration: 2s;
+  -moz-transition-duration: 2s;
+}
+
+/*transition / animation End*/
+
 
 /*Media Query start*/
 @media screen and (min-width: 320px) and (max-width: 740px) {
