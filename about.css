@@ -76,7 +76,7 @@ body {
   }
 
   .card {
-    background-color: rgba(0, 97, 168, 0.6);
+    background-color: rgba(0, 97, 168, 0.5);
     color: white;
     margin: 1em;
   }
@@ -94,7 +94,7 @@ body {
   
   /*Footer*/
   footer {
-    background-color: rgba(0, 97, 168, 0.6);
+    background-color: rgba(0, 97, 168, 0.5);
     margin-top: 10em;
     margin-bottom: 1em;
     height: 5em auto;
