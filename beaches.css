@@ -6,6 +6,13 @@ body {
   margin: 0;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*Header start*/
 header {
   background-color: rgba(0, 97, 168, 0.5);
@@ -35,38 +42,6 @@ a:hover {
 }
 
 /*Header End*/
-
-/*sidebar nav Start*/
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: rgba(0, 97, 168, 0.5);
-  position: fixed;
-  height: 34%;
-  z-index: 1;
-  overflow: auto;
-}
-
-.sidebar a {
-  display: block;
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: rgba(6, 50, 82, 0.5);
-  color: white;
-  color: white;
-}
-
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-}
-
-/*sidebar nav END*/
 
 /*body content Start*/
 .content {
